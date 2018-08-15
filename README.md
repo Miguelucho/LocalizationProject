@@ -46,12 +46,15 @@ $ source devel/setup.bash
 $ cd src/
 $ ./localization.sh
 
-Note: If the localization.sh file does not start, you probably need to give the file the necessary permissions. The solution is:
+Note: If the localization.sh file does not start, you probably 
+need to give the file the necessary permissions. The solution is:
 
 $ chmod +x localization.sh
 $ ./localization.sh # Now it should be possible to launch the file
 ```
 After launching the *localization.sh* file will open the gazebo and rviz windows as shown in the image.
+
+![LocalitationBot](https://github.com/Miguelucho/LocalizationProject/blob/master/Captura%20de%20pantalla%20de%202018-08-15%2017-59-05.png)
 
 To test the location of the bot on the map, locate it in the window rviz, at the top there is a button named **2D Nav Goal**, select it and then with the mouse press the primary button on the map of rviz and keeping the button Preceding and moving the mouse is given a orientation to a large green arrow that is shown on the map of Rviz. When releasing the primary mouse button the bot will proceed to the indicated location.
 
